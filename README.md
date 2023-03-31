@@ -4,9 +4,13 @@ This is a repo that curate projects used in eth global hackathon
 
 ## How to start
 
-You would need three terminals to start this project
+You would need three terminals to start this project.
 
-### Start bundler and node
+Start by running a submodule clone command
+
+`git submodule update --init --recursive`
+
+### Start bundler and node in a terminal
 
 Make sure your are in the `bundler` folder
 
@@ -26,7 +30,7 @@ Open another terminal, and run bundler
 
 `pnpm bundler --unsafe`
 
-### Compile private guardian circuits and deploy contracts
+### Compile private guardian circuits and deploy contracts in second terminal
 
 Make sure your are in the `private-guardian-contracts` folder
 
@@ -44,7 +48,9 @@ Run deploy to deploy contracts
 
 ### Start frontend
 
-Make sure your are in the `account.js-next` folder
+Make sure your are in the `account.js-next` folder, and is in the `connect-example` branch.
+
+If you don't, run `git checkout connect-example`
 
 Install packages with package manager
 
