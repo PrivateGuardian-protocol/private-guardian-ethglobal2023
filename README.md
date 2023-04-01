@@ -60,4 +60,4 @@ Update `examples/with-private-recovery/config.ts` with the deployed contract add
 
 Start a development application
 
-`pnpm dev`
+`pnpm build && pnpm dev`

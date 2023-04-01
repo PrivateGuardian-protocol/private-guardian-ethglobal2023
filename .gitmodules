@@ -1,0 +1,12 @@
+[submodule "private-guardian-contracts"]
+path = private-guardian-contracts
+url = https://github.com/PrivateGuardian-protocol/PrivateGuardian
+
+[submodule "bundler"]
+path = bundler
+url = https://github.com/accountjs/account.js
+
+[submodule "account.js-next"]
+path = account.js-next
+url = https://github.com/accountjs/account.js-next
+branch = connect-example
