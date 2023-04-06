@@ -10,6 +10,26 @@ Start by running a submodule clone command
 
 `git submodule update --init --recursive`
 
+### Start it with zx script
+
+Make sure you have installed `zx` package globally by running `npm i -g zx`
+
+Run zx script to start bundler and frontend in a seperate terminal
+
+Start Node and Bundler
+
+`zx ./startBundler.mjs`
+
+Start Frontend, this should open up a browser with the frontend.
+
+`zx ./startFrontend.mjs`
+
+And then you should able to twist your own config by update it using the address outputed by `startBundler` script.
+
+## Start it all manually
+
+Try running this project all by your hands, follow this step.
+
 ### Start bundler and node in a terminal
 
 Make sure your are in the `bundler` folder
